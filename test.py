@@ -14,3 +14,4 @@ verbose=1
 
 x = Model(enviroment_name, algorithm, policy, n_envs, n_stack, seed, verbose,total_timesteps)
 x.analyzeEnv()
+x.trainModel()
