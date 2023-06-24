@@ -23,7 +23,7 @@ import time
 #!python3 -m atari_py.import_roms /home/mypc/
 
 ############################################# Main model Class ########################################################
-class Model:
+class CompleteModelReview:
     def __init__(self,enviroment_name, algorithm, policy, n_envs, 
                  n_stack, seed, verbose,total_timesteps,environment_type,
                  learning_rate, gamma, is_image_based, eval_episodes):
